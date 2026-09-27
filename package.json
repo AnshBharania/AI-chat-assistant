@@ -1,0 +1,12 @@
+{
+  "name": "ai-chat-assistant",
+  "version": "1.0.0",
+  "description": "A simple AI chat assistant built with Node.js, Express, and the Anthropic Claude API. Deployable on Vercel.",
+  "main": "api/chat.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}
